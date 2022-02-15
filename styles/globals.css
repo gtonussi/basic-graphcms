@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #13151F;
+  color: #FFF;
 }
 
 a {
@@ -13,4 +15,64 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.app {
+  padding: 16px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.main-video {
+  height: 50vh;
+  margin-bottom: 64px;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.main-video img {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 64px;
+}
+
+.card {
+  width: 20%;
+  height: auto;
+  border-radius: 5%;
+  filter: drop-shadow(5px 5px 10px #000);
+  margin-right: 16px;
+}
+
+.video-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.info {
+  position: relative;
+  margin-top: 30%;
+  margin-left: 50px;
+  max-width: 50%;
+}
+
+.video-overlay {
+  position: absolute;
+}
+
+.info-footer {
+  height: 100vh;
 }
